@@ -1,6 +1,6 @@
 import '../index.css';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+// import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 const Content = () => {
     return (
