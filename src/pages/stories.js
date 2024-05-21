@@ -1,5 +1,4 @@
 import '../index.css';
-import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import AddIcon from '@mui/icons-material/Add';
 
 const Story = () => {

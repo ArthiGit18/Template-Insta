@@ -1,17 +1,19 @@
 import '../index.css';
+import AddIcon from '@mui/icons-material/Add';
+import HomeIcon from '@mui/icons-material/Home';
+import SearchIcon from '@mui/icons-material/Search';
+import LocalMallIcon from '@mui/icons-material/LocalMall';
 
 const Footer = () => {
     return (
         <div className='container'>
             <div className='Footer'>
-                {/* <div className='FooterActions'> */}
-                    <img src="/navbarImg/Vector (1).png" alt="Logo" className='footerLogo' />
-                    <img src="/navbarImg/Search.png" alt="Add Icon Filled" className='footerLogo' />
-                    <img src="/navbarImg/Union.png" alt="Heart" className='footerLogo' />
-                    <img src="/navbarImg/Union (1).png" alt="Share" className='footerLogo' />
-                    {/* <img src="/navbarImg/Union (1).png" alt="Share" className='footerLogo' /> */}
+                    <HomeIcon className='muiIcons' style={{fontSize:"30px"}} />
+                    <SearchIcon className='muiIcons' style={{fontSize:"30px"}} />
+                    <AddIcon className='muiIcons' style={{fontSize:"30px", border: "2px solid black", borderRadius: "5px"}} />
+                    <LocalMallIcon className='muiIcons' style={{fontSize:"30px"}} />
                     <img src="/navbarImg/280dd7a5-d0ba-4ab4-ac77-7e0fcce6fd25.jpeg" alt="Logo" className='footerLogoProfile' />
-                {/* </div> */}
+               
             </div>
 
             <div className='footerSlide'>
